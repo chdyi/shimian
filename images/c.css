@@ -1,0 +1,174 @@
+.wrap {
+	POSITION: relative; OVERFLOW-X: hidden; OVERFLOW-Y: hidden; MARGIN: 0px auto; MAX-WIDTH: 640px
+}
+.app-dl {
+	POSITION: relative; OVERFLOW-X: hidden; OVERFLOW-Y: hidden; MARGIN: 0px auto; MAX-WIDTH: 640px; MAX-HEIGHT: 111px; -webkit-transition-property: all; -webkit-transition-duration: 0.1s; -webkit-transition-timing-function: linear; -webkit-transition-delay: initial
+}
+.app-dl IMG {
+	WIDTH: 100%
+}
+.app-dl .close {
+	POSITION: absolute; OVERFLOW-X: hidden; OVERFLOW-Y: hidden; WIDTH: 5%; CURSOR: pointer; RIGHT: 2.5%; TOP: 15%
+}
+.app-dl .close IMG {
+	border-top-left-radius: 100%; border-top-right-radius: 100%; border-bottom-right-radius: 100%; border-bottom-left-radius: 100%
+}
+.header-2015 {
+	POSITION: relative; TEXT-ALIGN: center; OVERFLOW-X: hidden; OVERFLOW-Y: hidden; BACKGROUND-COLOR: rgb(204,51,51); background-origin: initial; background-clip: initial; background-size: initial
+}
+.logo-2015 {
+	POSITION: absolute; WIDTH: 37.4%; TOP: 0px; LEFT: 28%
+}
+.logo-2015 .channel-name {
+	POSITION: absolute; TEXT-ALIGN: left; LINE-HEIGHT: 20px; MARGIN-TOP: -8px; WIDTH: 80%; HEIGHT: 20px; COLOR: rgb(255,255,255); TOP: 44%; LEFT: 100%
+}
+.logo-2015 .channel-name A {
+	PADDING-BOTTOM: 2%; BACKGROUND-COLOR: rgb(181,32,32); PADDING-LEFT: 4%; PADDING-RIGHT: 4%; COLOR: rgb(255,255,255); FONT-SIZE: 16px; PADDING-TOP: 2%; border-top-left-radius: 15px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; border-bottom-left-radius: 15px
+}
+.page-name {
+	POSITION: absolute; MARGIN-TOP: -15px; WIDTH: 25%; HEIGHT: 30px; COLOR: rgb(255,255,255); FONT-SIZE: 20px; VERTICAL-ALIGN: middle; TOP: 50%; LEFT: 37.5%
+}
+.header-2015 IMG {
+	WIDTH: 100%
+}
+.header-2015 .i-navbar {
+	BACKGROUND-IMAGE: url(i-navbar.png); POSITION: absolute; WIDTH: 12.5%; HEIGHT: 100%; CURSOR: pointer; TOP: 0px; LEFT: 2.4%; background-origin: initial; background-clip: initial; background-size: 100%
+}
+.header-2015 .i-search {
+	BACKGROUND-IMAGE: url(i-search_1.png); POSITION: absolute; WIDTH: 10%; HEIGHT: 100%; CURSOR: pointer; RIGHT: 10%; TOP: 0px; background-origin: initial; background-clip: initial; background-size: 100%
+}
+.header-2015 .u-default {
+	BACKGROUND-IMAGE: url(u-default.png); POSITION: absolute; TEXT-ALIGN: center; WIDTH: 10%; DISPLAY: block; HEIGHT: 100%; VERTICAL-ALIGN: middle; CURSOR: pointer; RIGHT: 0px; TOP: 0px; background-origin: initial; background-clip: initial; background-size: 100%
+}
+.header-2015 .u-logined {
+	BACKGROUND-IMAGE: none; background-origin: initial; background-clip: initial; background-size: initial
+}
+.header-2015 .u-default IMG {
+	POSITION: absolute; WIDTH: 70%; TOP: 24%; LEFT: 15%; border-top-left-radius: 100%; border-top-right-radius: 100%; border-bottom-right-radius: 100%; border-bottom-left-radius: 100%
+}
+.header-c {
+	WIDTH: 13.75%; DISPLAY: block
+}
+.sub-nav-2015 {
+	PADDING-BOTTOM: 2%; BACKGROUND-COLOR: rgb(255,255,255); PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-SIZE: 0px; PADDING-TOP: 2%; background-origin: initial; background-clip: initial; background-size: initial; box-shadow: rgb(237, 237, 237) 0px 4px 4px; -webkit-box-shadow: rgb(237, 237, 237) 0px 1px 3px
+}
+.sub-nav-2015 LI {
+	TEXT-ALIGN: center; WIDTH: 16.6%; DISPLAY: inline-block; FONT-SIZE: 16px
+}
+.sub-nav-2015 LI A {
+	PADDING-BOTTOM: 3%; PADDING-LEFT: 10%; PADDING-RIGHT: 10%; DISPLAY: inline-block; PADDING-TOP: 3%; border-top-left-radius: 30px; border-top-right-radius: 30px; border-bottom-right-radius: 30px; border-bottom-left-radius: 30px
+}
+.sub-nav-2015 .cur A {
+	BACKGROUND-COLOR: rgb(204,51,51); COLOR: rgb(255,255,255); background-origin: initial; background-clip: initial; background-size: initial
+}
+.bar-app {
+	PADDING-LEFT: 5%
+}
+.bar-app .item {
+	POSITION: relative; PADDING-BOTTOM: 15px; MIN-HEIGHT: 50px; WIDTH: 100%
+}
+.bar-app .pic {
+	POSITION: absolute; WIDTH: 50px; TOP: 0px; LEFT: 0px
+}
+.bar-app .pic IMG {
+	WIDTH: 50px; DISPLAY: block; HEIGHT: 50px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px
+}
+.bar-app .info {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 60px; PADDING-RIGHT: 5%; PADDING-TOP: 0px
+}
+.bar-app .tit {
+	LINE-HEIGHT: 1
+}
+.bar-app .tit A {
+	COLOR: rgb(245,245,245); FONT-SIZE: 14px
+}
+.bar-app .desc {
+	LINE-HEIGHT: 14px; OVERFLOW-X: hidden; OVERFLOW-Y: hidden; MARGIN-TOP: 2px; COLOR: rgb(204,204,204); FONT-SIZE: 12px
+}
+.guide-app {
+	Z-INDEX: 10000; POSITION: absolute; WIDTH: 100%; DISPLAY: none; HEIGHT: 100%; TOP: 0px; LEFT: 0px; background-origin: initial; background-clip: initial; background-size: initial
+}
+.guide-app IMG {
+	WIDTH: 100%; DISPLAY: block; opacity: 0; -webkit-transition-property: opacity; -webkit-transition-duration: 0.3s; -webkit-transition-timing-function: linear; -webkit-transition-delay: initial
+}
+.guide-app .bd {
+	POSITION: relative; BACKGROUND-COLOR: rgb(255,255,255); MARGIN: 0px auto; WIDTH: 82.5%; background-origin: initial; background-clip: initial; background-size: initial
+}
+.guide-app .link {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 6%; BACKGROUND-COLOR: rgb(255,255,255); PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 6%; background-origin: initial; background-clip: initial; background-size: initial
+}
+.guide-app .link A {
+	PADDING-BOTTOM: 3%; BACKGROUND-COLOR: rgb(204,0,0); PADDING-LEFT: 0px; WIDTH: 45%; PADDING-RIGHT: 0px; DISPLAY: inline-block; COLOR: rgb(255,255,255); FONT-SIZE: 15px; PADDING-TOP: 3%; background-origin: initial; background-clip: initial; background-size: initial
+}
+.guide-app .link SPAN {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 5%; PADDING-RIGHT: 5%; DISPLAY: inline-block; COLOR: rgb(102,102,102); FONT-SIZE: 14px; PADDING-TOP: 0px
+}
+.guide-app .close {
+	POSITION: absolute; WIDTH: 5%; CURSOR: pointer; RIGHT: 4%; TOP: 4%
+}
+.guide-app .close IMG {
+	border-top-left-radius: 100%; border-top-right-radius: 100%; border-bottom-right-radius: 100%; border-bottom-left-radius: 100%; opacity: 1
+}
+.navbar {
+	Z-INDEX: 102; POSITION: absolute; PADDING-BOTTOM: 3%; OVERFLOW-X: hidden; OVERFLOW-Y: hidden; BACKGROUND-COLOR: rgb(45,45,45); WIDTH: 0px; COLOR: rgb(245,245,245); TOP: 0px; LEFT: -110%; background-origin: initial; background-clip: initial; background-size: initial; -webkit-transition-property: left; -webkit-transition-duration: 0.3s; -webkit-transition-timing-function: linear; -webkit-transition-delay: initial
+}
+.navbar-active {
+	LEFT: 0px
+}
+.bar-nav {
+	PADDING-BOTTOM: 5%; PADDING-LEFT: 5%; PADDING-RIGHT: 5%; PADDING-TOP: 5%
+}
+.bar-nav DL {
+	MARGIN-TOP: 7%
+}
+.bar-nav DL:first-child {
+	PADDING-BOTTOM: 2%; MARGIN-TOP: 3%
+}
+.bar-nav DT {
+	BORDER-BOTTOM: rgb(66,66,66) 1px solid; POSITION: relative; WIDTH: 100%; HEIGHT: 14px
+}
+.bar-nav DT A {
+	DISPLAY: block; HEIGHT: 16px
+}
+.bar-nav DT .c-name {
+	POSITION: absolute; BACKGROUND-COLOR: rgb(45,45,45); COLOR: rgb(255,255,255); FONT-SIZE: 20px; TOP: -9px; LEFT: 0px; background-origin: initial; background-clip: initial; background-size: initial
+}
+.bar-nav DT .e-name {
+	LINE-HEIGHT: 18px; PADDING-LEFT: 42px; DISPLAY: block; COLOR: rgb(68,68,68); FONT-SIZE: 16px
+}
+.bar-nav DD {
+	MARGIN-TOP: 2.5%; FONT-SIZE: 0px
+}
+.bar-nav DD A {
+	OVERFLOW-X: hidden; OVERFLOW-Y: hidden; WIDTH: 15%; DISPLAY: inline-block; COLOR: rgb(153,153,153); FONT-SIZE: 16px; MARGIN-RIGHT: 2%
+}
+.bar-nav DD A:unknown {
+	MARGIN-RIGHT: 0px
+}
+.footer2015 {
+	POSITION: relative; MARGIN-TOP: 2.5%
+}
+.footer-new {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 30px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; CLEAR: both; BORDER-TOP: rgb(204,51,51) 2px solid; PADDING-TOP: 15px
+}
+.footer-new .version {
+	POSITION: relative; LINE-HEIGHT: 34px; HEIGHT: 34px; COLOR: rgb(153,153,153); FONT-SIZE: 18px
+}
+.footer-new .version A {
+	MARGIN: 0px 16px; DISPLAY: inline-block; COLOR: rgb(51,51,51)
+}
+.footer-new .version A:hover {
+	COLOR: rgb(204,0,0)
+}
+.footer-new .copyright {
+	MARGIN-TOP: 5px; COLOR: rgb(204,204,204); FONT-SIZE: 12px
+}
+.channel-nav .i-navbox {
+	POSITION: absolute; TEXT-ALIGN: center; OVERFLOW-X: hidden; OVERFLOW-Y: hidden; WIDTH: 10%; HEIGHT: 100%; CURSOR: pointer; RIGHT: 0px; TOP: 0px
+}
+.channel-nav .i-navbox I {
+	BORDER-BOTTOM: transparent 6px dashed; POSITION: relative; BORDER-LEFT: transparent 6px dashed; OVERFLOW-X: hidden; OVERFLOW-Y: hidden; MARGIN-TOP: -4px; WIDTH: 0px; DISPLAY: inline-block; HEIGHT: 0px; BORDER-TOP: rgb(204,204,204) 10px solid; BORDER-RIGHT: transparent 6px dashed; TOP: 50%; border-image: initial
+}
+BODY.user {
+	PADDING-BOTTOM: 0px !important
+}
